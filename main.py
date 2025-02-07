@@ -58,4 +58,18 @@ ex3 = pd.DataFrame({
 })
 print(ex3)
 
-pd.concat(ex1, ex3)
+print(pd.concat([ex1, ex3]))
+
+ex4 = pd.DataFrame({
+  "name": ["Akash", "Priyanka"],
+  "marks": ["57","79"],
+})
+print(ex4)
+
+ex5 = pd.DataFrame({
+  "name": ["Akash", "Priyanka"],
+  "roll": ["162","193"],
+})
+print(ex5)
+
+print(pd.merge(ex4, ex5, on="name"))
