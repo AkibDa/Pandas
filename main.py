@@ -21,5 +21,12 @@ print(ex.info())
 
 #Data Selection
 
-print(ex["Id"])
+print(ex["Id"]) # type = Series
 print(ex[["Id", "SepalLengthCm"]])
+print(ex.iloc[0]) 
+
+ex2 = pd.read_csv("data/data.csv")
+print(ex2.head())
+print(ex2.dropna())
+print(ex2.fillna(0))
+print(ex2.rename(columns={"SepalLengthCm": "SL"}))
