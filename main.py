@@ -73,3 +73,7 @@ ex5 = pd.DataFrame({
 print(ex5)
 
 print(pd.merge(ex4, ex5, on="name"))
+
+print("Completed The Crash Course")
+
+#https://www.youtube.com/watch?v=E9WGC0SLPVs
