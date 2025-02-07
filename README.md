@@ -1,6 +1,4 @@
-# Pandas
-
-# Pandas Crash Course Examples
+# Pandas 
 
 This repository contains code examples from a Pandas crash course, covering essential data manipulation techniques.  The examples demonstrate data cleaning, filtering, grouping, and merging using the Pandas library in Python.
 
