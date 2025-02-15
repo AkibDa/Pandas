@@ -8,5 +8,5 @@ df = pd.DataFrame(data)
 
 print(df)
 
-data = pd.read_csv("Data/Iris.csv")
+data = pd.read_excel("Data/kl.xlsx")
 print(data)
