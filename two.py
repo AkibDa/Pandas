@@ -10,3 +10,9 @@ print(df)
 
 data = pd.read_csv("Data/daily_food_nutrition_dataset.csv")
 print(data)
+
+# Understanding Data
+print(data.head(10))
+print(data.tail(10))
+print(data.info())
+print(data.describe())
