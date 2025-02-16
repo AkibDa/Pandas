@@ -8,5 +8,5 @@ df = pd.DataFrame(data)
 
 print(df)
 
-data = pd.read_excel("Data/kl.xlsx")
+data = pd.read_csv("Data/daily_food_nutrition_dataset.csv")
 print(data)
