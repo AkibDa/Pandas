@@ -17,3 +17,8 @@ print(data.tail(10))
 print(data.info())
 print(data.describe())
 print(data.isnull().sum())
+
+#Handling duplicate values
+print(data.duplicated().sum())
+print(data.drop_duplicates("")) # give name of the field where u want to delete the duplicate value
+
